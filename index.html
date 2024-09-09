@@ -11,7 +11,32 @@
   <div class="game-container">
     <canvas id="gameCanvas"></canvas>
   </div>
-  <p id="score">Score: 0</p>
+  <p id="score">Score: 0 | Best: 0</p>
+
+  <div class="controls">
+    <!-- Movement buttons -->
+    <button id="up-btn">Up</button>
+    <button id="left-btn">Left</button>
+    <button id="down-btn">Down</button>
+    <button id="right-btn">Right</button>
+
+    <!-- Play, Pause, and Reset buttons -->
+    <button id="play-btn">Play</button>
+    <button id="pause-btn">Pause</button>
+    <button id="reset-btn">Reset</button>
+
+    <!-- Speed level selector -->
+    <label for="speed-level">Speed:</label>
+    <select id="speed-level">
+      <option value="100">Slow</option>
+      <option value="80">Normal</option>
+      <option value="50">Fast</option>
+    </select>
+  </div>
+
+  <!-- Retry button (hidden initially) -->
+  <button id="retry-btn" class="hidden">Retry</button>
+
   <script src="script.js"></script>
 </body>
 </html>
