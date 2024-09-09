@@ -22,7 +22,7 @@ canvas {
   border: 5px solid #333;
   display: block;
   width: 100%;
-  max-width: 400px; /* Max width for larger screens */
+  max-width: 400px;
   height: auto;
 }
 
@@ -30,4 +30,18 @@ canvas {
   font-size: 20px;
   color: #333;
   margin-top: 20px;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.hidden {
+  display: none;
 }
